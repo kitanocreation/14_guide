@@ -1,12 +1,3 @@
-
-html {
-    font-family: "yu-gothic-pr6n", sans-serif;
-    font-weight: 500;
-    color: #414143;
-    letter-spacing: 0.04em;
-    line-height: 150%;
-}
-
 html, body {
     width: 100vw;
     overflow-x: hidden;
@@ -28,6 +19,11 @@ img {
 
 p {
     margin: 0;
+    font-family: "yu-gothic-pr6n", sans-serif;
+    font-weight: 500;
+    color: #414143;
+    letter-spacing: 0.04em;
+    line-height: 150%;
 }
 
 .list-title {
