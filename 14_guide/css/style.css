@@ -1,0 +1,129 @@
+
+html {
+    font-family: "yu-gothic-pr6n", sans-serif;
+    font-weight: 500;
+    color: #414143;
+    letter-spacing: 0.04em;
+    line-height: 150%;
+}
+
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header, footer, main, section, a, img {
+    width: 100%;
+}
+
+a {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
+
+.list-title {
+    font-weight: 700;
+}
+
+.guide-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #414143;
+    color: #FFFFFF;
+    font-family: "游明朝", serif;
+    font-weight: 600;
+    text-decoration: none; 
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+  /* SPサイズ (例: 最大幅767px以下) */
+@media screen and (max-width: 767px) { 
+    p {        
+        font-size: 14px;
+    }
+    .guide-button {
+        font-size: 16px;
+    }
+    .guide-box {
+        display: flex;
+        padding: 0px 16px 40px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    } 
+    .guide-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .guide-box .guide-list img {
+        width: 240px;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .guide-button {
+        height: 52px;
+        border-radius: 26px;
+    }
+    
+}
+
+  /* PCサイズ (例: 768px以上) */
+@media screen and (min-width: 768px) {
+    p {        
+        font-size: 16px;
+    }
+    .guide-button {
+        font-size: 18px;
+    }
+    .guide-box {
+        display: flex;
+        padding: 0px 80px 64px 80px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+    } 
+    .guide-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .guide-list {
+        align-items: flex-start;
+    }
+    .guide-box .guide-list img {
+        width: 300px;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .guide-button {
+        height: 56px;
+        border-radius: 28px;
+    }
+}
+
+.guide-button:hover {
+    opacity: 0.8; /* 少し透明にする */
+}
