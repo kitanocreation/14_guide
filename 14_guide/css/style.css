@@ -48,6 +48,7 @@ h2 {
     font-family: "yu-mincho-pr6n", serif;
     font-weight: 600;
     display: flex;
+    margin: 0;
 }
 
 .breadcrumb-item::after{
@@ -104,10 +105,10 @@ h2 {
     .guide-box .guide-list img {
         width: 240px;
     }
-    .button {
+    .button-box {
+        width: 100%;
         display: flex;
         justify-content: center;
-        width: 100%;
     }
     .guide-button {
         height: 52px;
@@ -129,7 +130,7 @@ h2 {
     }
     h2 {
         font-size: 28px;
-        padding: 16px 80pxx;
+        padding: 16px 80px;
     }
     p {        
         font-size: 16px;
@@ -159,9 +160,6 @@ h2 {
     }
     .button-box {
         width: 40%;
-    }
-    .button {
-        width: 100%;
         position: fixed;
         top: 80%;
         right: 80px;
