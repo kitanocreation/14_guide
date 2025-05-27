@@ -17,10 +17,10 @@ img {
     object-fit: cover;
 }
 
-p {
+.guide-main p {
     margin: 0;
     font-family: "yu-gothic-pr6n", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #414143;
     letter-spacing: 0.04em;
     line-height: 150%;
@@ -44,8 +44,37 @@ p {
     cursor: pointer;
 }
 
+h2 {
+    font-family: "yu-mincho-pr6n", serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.breadcrumb-item::after{
+    display: none;
+}
+
+.breadcrumb img {
+    width: 24px;
+}
+
+
+
   /* SPサイズ (例: 最大幅767px以下) */
 @media screen and (max-width: 767px) { 
+    .breadcrumb {
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        align-self: stretch;
+    }
+    .breadcrumb-item {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 24px;
+        padding: 8px 16px 16px 16px;
+    }
     p {        
         font-size: 14px;
     }
@@ -82,6 +111,19 @@ p {
 
   /* PCサイズ (例: 768px以上) */
 @media screen and (min-width: 768px) {
+    .breadcrumb {
+        display: flex;
+        padding: 16px 80px;
+        align-items: center;
+        align-self: stretch;
+    }
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 28px;
+        padding: 8px 16px 16px 16px;
+    }
     p {        
         font-size: 16px;
     }

@@ -9,47 +9,46 @@
 <{$module.meta_topre}>
 <{$makeshop.body_top}> 
     <{$module.header_topre}>
-<div class="breadcrumb">
-    <span class="breadcrumb-item"><a href="<{$url.top}>">トップ</a></span>
-    <{section name=i loop=$category.breadcrumb_list.list}>
-    <span class="breadcrumb-item"><a href="<{$url.guide}>">ご利用ガイド</a></span>
-    <{section name=i loop=$category.breadcrumb_list.list}>
-    <span class="breadcrumb-item"><a href="<{$url.guide}>">ご利用ガイド</a></span>
-</div>
-<h2>ご注文手順</h2>
-<div class="guide-box">
-    <div class="guide-text">
-        <div class="guide-list">
-            <div class="list-text">
-                <p class="list-title">1. 商品をカートに入れる</p>
-                <p>ご希望の商品ページで、数量やオプションなどを選択し、「カートに入れる」ボタンをクリックしてください。</p>
+
+    <div class="breadcrumb">
+        <span class="breadcrumb-item"><a href="<{$url.top}>">トップ</a></span>
+        <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/breadcrumb-icon.svg" alt="">
+        <span class="breadcrumb-item"><a href="<{$url.guide}>">ご利用ガイド</a></span>
+    </div>
+    <h2>ご注文手順</h2>
+    <div class="guide-box">
+        <div class="guide-text">
+            <div class="guide-list">
+                <div class="list-text">
+                    <p class="list-title">1. 商品をカートに入れる</p>
+                    <p>ご希望の商品ページで、数量やオプションなどを選択し、「カートに入れる」ボタンをクリックしてください。</p>
+                </div>
+                <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-1.jpg" alt="">
             </div>
-            <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-1.jpg" alt="">
-        </div>
-        <div class="guide-list">
-            <div class="list-text">
-                <p class="list-title">2. ログインまたは新規会員登録</p>
-                <p>会員のお客様は、メールアドレス・パスワードを入力しログインしてください。<br>
-                    初めてのお客様は、画面の案内に従い新規会員登録をお願いいたします。</p>
-            </div>        
-            <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-2.jpg" alt="">
-        </div>
-        <div class="guide-list">
-            <div class="list-text">
-                <p class="list-title">3. ご注文情報の入力・確認</p>
-                <p>内容に間違いがなければ、「注文を確定する」ボタン（またはお支払い方法を選ぶボタン）をクリックしてください。これでご注文手続きは完了です。<br>
-                    ※各お支払い方法でお手続きを進める場合は画面の案内に従ってください。</p>
+            <div class="guide-list">
+                <div class="list-text">
+                    <p class="list-title">2. ログインまたは新規会員登録</p>
+                    <p>会員のお客様は、メールアドレス・パスワードを入力しログインしてください。<br>
+                        初めてのお客様は、画面の案内に従い新規会員登録をお願いいたします。</p>
+                </div>        
+                <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-2.jpg" alt="">
             </div>
-            <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-3.jpg" alt="">
+            <div class="guide-list">
+                <div class="list-text">
+                    <p class="list-title">3. ご注文情報の入力・確認</p>
+                    <p>内容に間違いがなければ、「注文を確定する」ボタン（またはお支払い方法を選ぶボタン）をクリックしてください。これでご注文手続きは完了です。<br>
+                        ※各お支払い方法でお手続きを進める場合は画面の案内に従ってください。</p>
+                </div>
+                <img src="https://gigaplus.makeshop.jp/kitanoace/20_guide/assets/img/guide-1-1-3.jpg" alt="">
+            </div>
+            <div class="guide-list">
+                <div class="list-text">
+                    <p class="list-title">4. ご注文完了メール</p>
+                    <p>注文完了後に、ご登録のメールアドレスへ「ご注文完了メール」を自動配信いたします。しばらく経ってもメールが届かない場合は、迷惑メールフォルダをご確認いただくか、北野エースWEB SHOPの注文履歴よりご注文状況をご確認ください。</p>
+                </div>  
+            </div>
         </div>
-        <div class="guide-list">
-            <div class="list-text">
-                <p class="list-title">4. ご注文完了メール</p>
-                <p>注文完了後に、ご登録のメールアドレスへ「ご注文完了メール」を自動配信いたします。しばらく経ってもメールが届かない場合は、迷惑メールフォルダをご確認いただくか、北野エースWEB SHOPの注文履歴よりご注文状況をご確認ください。</p>
-            </div>  
+        <div class="button-container">
+            <a href="<{$url.guide}>" class="guide-button">ご利用ガイドにもどる</a>
         </div>
     </div>
-    <div class="button-container">
-        <a href="<{$url.guide}>" class="guide-button">ご利用ガイドにもどる</a>
-    </div>
-</div>
